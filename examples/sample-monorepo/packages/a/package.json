@@ -1,0 +1,10 @@
+{
+  "name": "@sample/a",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "node -e \"console.log('build a')\"",
+    "test": "node -e \"console.log('test a')\""
+  }
+}
+

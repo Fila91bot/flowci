@@ -1,0 +1,25 @@
+{
+  "name": "flowci",
+  "version": "0.1.0",
+  "private": true,
+  "description": "FlowCI - monorepo change impact builder (flow-based CI planning/execution)",
+  "license": "UNLICENSED",
+  "type": "commonjs",
+  "bin": {
+    "flowci": "bin/flowci.cjs"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "tsconfig.json",
+    "README.md",
+    "README.en.md",
+    "QUICKSTART.md",
+    "struktura-projekta.md",
+    "struktura-projekta.en.md"
+  ],
+  "dependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
+  }
+}

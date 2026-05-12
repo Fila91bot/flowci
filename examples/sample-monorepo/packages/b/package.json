@@ -1,0 +1,13 @@
+{
+  "name": "@sample/b",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "node -e \"console.log('build b')\"",
+    "test": "node -e \"console.log('test b')\""
+  },
+  "dependencies": {
+    "@sample/a": "workspace:*"
+  }
+}
+
